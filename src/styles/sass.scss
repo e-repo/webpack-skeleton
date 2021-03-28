@@ -1,0 +1,17 @@
+$webpack_image_max_width: 1200px;
+
+.webpack {
+	img {
+		max-width: $webpack_image_max_width;
+	}
+}
+
+.sass-loader {
+
+	&__item {
+		border: 1px solid #000000;
+		margin: 0 15px;
+		padding: 20px 0;
+		color: darkred;
+	}
+}
